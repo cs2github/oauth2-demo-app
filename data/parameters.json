@@ -1,0 +1,10 @@
+{
+  "client_id": "",
+  "client_secret": "",
+  "token_route": "",
+  "authorize_route": "",
+  "resource_route": "",
+  "resource_params": {},
+  "user_credentials": ["", ""],
+  "http_options": { "exceptions": false }
+}

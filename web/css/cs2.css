@@ -1,0 +1,81 @@
+body,
+header[role="banner"] *,
+ul.simpleTabsNavigation li a,
+.button {
+	font-family: 'Sunflower', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+header[role="banner"] hgroup {
+	position:static;
+	left:0;
+	display: inline-block;
+    width: 100%;
+}
+
+header[role="banner"] h1 {
+	font-size:180%;
+	font-style: normal;
+	float:left;
+	width:60%;
+}
+
+div.simpleTabs {
+    padding: 10px 0 0 0;
+}
+
+article[role="main"] ul.simpleTabsNavigation {
+	margin-left: 0;
+}
+
+ul.simpleTabsNavigation li a {
+	padding: 8px 8px 4px 8px;
+}
+
+a,
+a:visited {
+    color: #6bd930;
+}
+
+a:hover {
+    color: #2bba54;
+}
+
+a.button,
+a.button:visited {
+    color: #000;
+}
+
+a.button:hover {
+    color: #FFF;
+}
+
+pre code {
+    background: #efefef;
+}
+
+.logo {
+	width:20%;
+	float:right;
+}
+
+.clearfix::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.button:hover {
+	background:#666;
+	border-color:#666;
+}
+
+.error {
+	display:block;
+	color:red;
+	font-weight:bold;
+	padding:4px 8px;
+	border: 2px solid red;
+}
